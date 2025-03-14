@@ -1,0 +1,52 @@
+body {
+    background-color: #f5f7fa;
+    color: #333;
+}
+
+.logo {
+    width: 100px; 
+    height: auto; 
+}   
+
+
+/* Hero Section */
+.hero {
+    background: url('/static/img/image4.webp') no-repeat center center/cover;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.lead{
+    font-family: sans-serif;
+    color: #ece69a;
+}
+
+/* Card Styling */
+.car-card {
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}|
+
+.car-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* About Card */
+.about-card {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+}
+
+footer {
+    margin-top: 50px;
+}
